@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 const login = async ()=>{
-    const tokenResponse = await fetch('https://dev.stedi.me/login',{
+    const tokenResponse = await fetch('https://dev.stedi.cayson.cit262.com/login',{
         method: 'POST',
         body:JSON.stringify({
           userName: 'notrealemail@gmail.com',
